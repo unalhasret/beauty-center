@@ -4,3 +4,27 @@
     box-sizing: border-box;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+
+.logo img{
+    height: 70px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar button{
+    height: 100%;
+    border: none;
+    background-color: antiquewhite;
+    padding: 0 1rem;
+}
+
+.navbar button:hover{
+    cursor: pointer;
+}
