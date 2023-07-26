@@ -32,6 +32,7 @@ header{
     padding: 0 1rem;
     font-family: 'Dancing Script', cursive;
     font-size: 1.3rem;
+    color: rgb(110, 110, 110);
 }
 
 .navbar button:hover{
