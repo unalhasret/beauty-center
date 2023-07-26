@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -7,24 +9,32 @@
 header{
     display: flex;
     justify-content: space-between;
-    background-color: antiquewhite;
+    background-color: #EAE5E1;
+}
+
+.logo{
+    margin-left: 1rem;
 }
 
 .logo img{
-    height: 70px;
+    height: 65px;
 }
 
 .navbar{
     display: flex;
+
 }
 
 .navbar button{
     height: 100%;
     border: none;
-    background-color: antiquewhite;
+    background-color: #EAE5E1;
     padding: 0 1rem;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.3rem;
 }
 
 .navbar button:hover{
     cursor: pointer;
+    background-color: #cebcae;
 }
