@@ -47,3 +47,17 @@ header{
     width: 100%;
     height: 100%;
 }
+
+.foto a{
+    position: relative;
+    left: 45%;
+    bottom: 20%;
+}
+
+.foto button{
+    width: 10rem;
+    height: 3rem;
+    background-color: #ba9271;
+    border: none;
+    cursor: pointer;
+}
