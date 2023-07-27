@@ -61,3 +61,24 @@ header{
     border: none;
     cursor: pointer;
 }
+
+.category-header{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.categories{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.categories article{
+    flex: 1 100%;
+    text-align: center;
+}
+
+.categories img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
