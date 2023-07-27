@@ -1,84 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    background-color: #EAE5E1;
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eae5e1;
 }
 
-.logo{
-    margin-left: 1rem;
+.logo {
+  margin-left: 1rem;
 }
 
-.logo img{
-    height: 65px;
+.logo img {
+  height: 65px;
 }
 
-.navbar{
-    display: flex;
-
+.navbar {
+  display: flex;
 }
 
-.navbar button{
-    height: 100%;
-    border: none;
-    background-color: #EAE5E1;
-    padding: 0 1rem;
-    font-family: 'Dancing Script', cursive;
-    font-size: 1.3rem;
-    color: rgb(110, 110, 110);
+.navbar button {
+  height: 100%;
+  border: none;
+  background-color: #eae5e1;
+  padding: 0 1rem;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.3rem;
+  color: rgb(110, 110, 110);
 }
 
-.navbar button:hover{
-    cursor: pointer;
-    background-color: #cebcae;
+.navbar button:hover {
+  cursor: pointer;
+  background-color: #cebcae;
 }
 
-.foto{
-    height: calc(100vh - 69px);
+.foto {
+  height: calc(100vh - 69px);
 }
-.foto img{
-    width: 100%;
-    height: 100%;
-}
-
-.foto a{
-    position: relative;
-    left: 45%;
-    bottom: 20%;
+.foto img {
+  width: 100%;
+  height: 100%;
 }
 
-.foto button{
-    width: 10rem;
-    height: 3rem;
-    background-color: #ba9271;
-    border: none;
-    cursor: pointer;
+.foto a {
+  position: relative;
+  left: 45%;
+  bottom: 20%;
 }
 
-.category-header{
-    text-align: center;
-    margin-top: 1.5rem;
-}
-.categories{
-    display: flex;
-    margin-top: 1rem;
-}
-
-.categories article{
-    flex: 1 100%;
-    text-align: center;
+.foto button {
+  width: 10rem;
+  height: 3rem;
+  background-color: #ba9271;
+  border: none;
+  cursor: pointer;
 }
 
-.categories img{
-    height: 300px;
-    width: 100%;
-    object-fit: cover;
+.category-header {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 2.5rem;
+}
+.categories {
+  display: flex;
+  margin-top: 1rem;
 }
 
+.categories article {
+  flex: 1 100%;
+  text-align: center;
+}
+
+.categories img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.categories h3 {
+  position: relative;
+  bottom: 50%;
+  color: rgb(28, 28, 28);
+  display: none;
+  font-size: 2rem;
+}
+
+.categories > article:hover h3 {
+  display: inline;
+}
+
+.categories > article:hover img{
+    opacity: 0.5;
+    transition: all .4s linear;
+}
