@@ -7,10 +7,14 @@
   font-family: "Dancing Script", cursive;
 }
 
+body{
+  background-color: #c48f7f5b;
+}
+
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #eae5e1;
+  background-color: #f4ddd5;
 }
 
 .logo {
@@ -28,7 +32,7 @@ header {
 .navbar button {
   height: 100%;
   border: none;
-  background-color: #eae5e1;
+  background-color: #f4ddd5;;
   padding: 0 1rem;
   font-size: 1.3rem;
   color: rgb(110, 110, 110);
@@ -36,7 +40,7 @@ header {
 
 .navbar button:hover {
   cursor: pointer;
-  background-color: #cebcae;
+  background-color: #c48f7f;
 }
 
 .foto {
@@ -45,20 +49,6 @@ header {
 .foto img {
   width: 100%;
   height: 100%;
-}
-
-.foto a {
-  position: relative;
-  left: 45%;
-  bottom: 20%;
-}
-
-.foto button {
-  width: 10rem;
-  height: 3rem;
-  background-color: #ba9271;
-  border: none;
-  cursor: pointer;
 }
 
 .header {
@@ -94,9 +84,13 @@ header {
   display: inline;
 }
 
+.categories > article:hover{
+  height: 300px;
+}
+
 .categories > article:hover img{
     opacity: 0.5;
-    transition: all .4s linear;
+    transition: all .3s linear;
 }
 
 .services{
@@ -112,7 +106,7 @@ header {
     width: 300px;
     height: 300px;
     text-align: center;
-    background-color: #f6dbc4;
+    background-color: #eae9e5;
     padding: 1rem;
     border-radius: 1rem;
 }
