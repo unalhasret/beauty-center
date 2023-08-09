@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Dancing Script", cursive;
 }
 
 header {
@@ -29,7 +30,6 @@ header {
   border: none;
   background-color: #eae5e1;
   padding: 0 1rem;
-  font-family: "Dancing Script", cursive;
   font-size: 1.3rem;
   color: rgb(110, 110, 110);
 }
