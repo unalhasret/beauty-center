@@ -38,9 +38,12 @@ header {
   color: rgb(110, 110, 110);
 }
 
-.navbar button:hover {
+.nav-items button:hover {
   cursor: pointer;
   background-color: #c48f7f;
+}
+.hamburger{
+  display: none;
 }
 
 .foto {
@@ -49,6 +52,7 @@ header {
 .foto img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .header {
@@ -116,4 +120,13 @@ header {
     height: 90%;
     object-fit: cover;
     border-radius: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+  .hamburger{
+    display: inline;
+  }
+  .nav-items{
+    display: none;
+  }
 }
