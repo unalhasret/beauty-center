@@ -31,7 +31,7 @@ header {
   display: flex;
 }
 
-.navbar button {
+:is(.navbar,.hamburger) button {
   height: 100%;
   border: none;
   background-color: #FDCEDF;
@@ -137,8 +137,23 @@ footer p {
 @media screen and (max-width: 700px) {
   .hamburger{
     display: inline;
+    cursor: pointer;
   }
-  .nav-items{
+  .navbar{
     display: none;
   }
+
+  .navbar.responsive {
+    display: block;
+    position: absolute;
+    top: 4rem;
+  }
+  .responsive .nav-items > *{
+    display: block;
+  }
+  .responsive .nav-items button{
+    width: 100vw;
+    padding: .5rem 0;
+  }
 }
+
