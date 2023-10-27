@@ -48,7 +48,7 @@ header {
 }
 
 .foto {
-  height: calc(100vh - 69px);
+  height: 100vh;
 }
 .foto img {
   width: 100%;
